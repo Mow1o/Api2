@@ -7,4 +7,5 @@ Output will be an URL, Newspaper name and the Article itself.
 App can be used from 
 
 https://rapidapi.com/Mow1o/api/nato-news/
+&
 https://terveys-scrapper.herokuapp.com/news
