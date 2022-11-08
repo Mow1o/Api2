@@ -50,7 +50,7 @@ lehdet.forEach(lehti => {
             const html = response.data
             const $ = cheerio.load(html)
 
-            $('a:contains("Nato")', html).each(function () {
+            $('a:contains("Sähkö")', html).each(function () {
                 const title = $(this).text()
                 const url = $(this).attr('href')
 
@@ -69,7 +69,7 @@ lehdet.forEach(lehti => {
 
 /* home */
 app.get('/', (req, res) => {
-    res.json('Welcome to my Nato news API')
+    res.json('Welcome to my Sähkö news API')
 })
 
 /* news base */
@@ -92,7 +92,7 @@ app.get('/news/:lehtiId', (req, res) => {
             const $ = cheerio.load(html)
             const specificArticles = []
 
-            $('a:contains("Nato")', html).each(function () {
+            $('a:contains("Sähkö")', html).each(function () {
                 const title = $(this).text()
                 const url = $(this).attr('href')
                 specificArticles.push({
