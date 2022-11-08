@@ -7,7 +7,19 @@ Output will be an URL, Newspaper name and the Article itself.
 App can be used from
 
 
-https://nato-news.herokuapp.com/news
+https://news-scraper222.herokuapp.com/news
+
+You can also include the specific news paper in the url
+'Helsingin-sanomat'
+'Aamulehti'
+Iltasanomat'
+'Iltalehti'
+'Turun-sanomat'
+'Lapinkansa'
+
+Example:
+https://news-scraper222.herokuapp.com/news/Aamulehti
+https://news-scraper222.herokuapp.com/news/Turun-sanomat
 
 
 If you plan to clone this code please use npm install to install the dependencies from package.json to get the correct modules.
