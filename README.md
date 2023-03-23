@@ -23,3 +23,9 @@ https://news-scraper222.herokuapp.com/news/Turun-sanomat
 
 
 If you plan to clone this code please use npm install to install the dependencies from package.json to get the correct modules.
+
+
+
+## Update
+
+Heroku has changed their free user plans so this might not work at all, only the code can be re-used.
