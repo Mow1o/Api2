@@ -1,4 +1,11 @@
-# Api2
+**DEPRECATED*** 
+Heroku has done changes on their cloud app providing services so the example links below don't work anymore.
+
+## Update
+
+Heroku has changed their free user plans so this might not work at all, only the code can be re-used.
+
+# Api
 
 Hello! This is an webscraper API that collects from most popular finnish news papers all the articles that has the word 'Sähkö' in them.
 
@@ -19,6 +26,7 @@ Iltasanomat'
 
 Example:
 https://news-scraper222.herokuapp.com/news/Aamulehti
+
 https://news-scraper222.herokuapp.com/news/Turun-sanomat
 
 
@@ -26,6 +34,4 @@ If you plan to clone this code please use npm install to install the dependencie
 
 
 
-## Update
 
-Heroku has changed their free user plans so this might not work at all, only the code can be re-used.
